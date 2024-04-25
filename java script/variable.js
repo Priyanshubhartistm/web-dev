@@ -1,5 +1,8 @@
-const accountID
- let accountEmail = "bhartipriyanshustm@gmail.com"
+let accountEmail = "bhartipriyanshustm@gmail.com"
  var accountPassword = "1234"
 
- console.log(accountID);
+ accountEmail  = "bharti@gmail.com"
+ accountPassword = "123"
+ 
+ 
+ console.log([accountEmail,accountPassword])
