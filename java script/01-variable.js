@@ -1,3 +1,4 @@
+const accountId = 123456789
 let accountEmail = "bhartipriyanshustm@gmail.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
@@ -9,6 +10,8 @@ let accountState;
 accountEmail = "bharti.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
+
+console.log(accountId);
 
 
 /*
