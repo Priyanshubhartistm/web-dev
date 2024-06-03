@@ -25,3 +25,4 @@ console.log(typeof undefined);
 console.log(typeof symbol);
 console.log(typeof false);
 console.log(typeof Object);
+
