@@ -22,3 +22,22 @@ const obj4 = {5:"a",6:"b"}
 //const obj3 = object.assign({},obj1,obj2,obj4)
 const obj3 = {...obj1,...obj2}
 console.log(obj3);
+
+
+const users = [
+    {
+        id : 1,
+        email: "bharti@mail.com",
+
+        },
+    {
+
+    },
+    {
+
+    },
+]
+users[1].emailx
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
