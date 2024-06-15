@@ -11,17 +11,44 @@
 
 
 
-// ++++++++++++++++++++++++++ some small- small keyword ++++++++++++++++++++++
-// break and continue
+// ++++++++++++++++++++++++++ some small- small keyword(BREAK,CONTINUE) ++++++++++++++++++++++ 
 
-for (let index = 1; index < 20; index++)  {
-    if (index == 5) {
-        console.log(`detected 5`);
-        break;
+
+// +++++++++++++++ BREAKKEYWORD +++++++++++
+//for (let index = 1; index <= 20; index++)  {
+    
+//     if (index == 5) {
+//         console.log(`detected 5`);
+//         break;
         
+//     }
+    
+//    console.log(`value of 1 is ${index}`);
+// }
+
+
+
+// +++++++++++++++ CONTINUE KEYWORD ++++++++++++++++++++++
+
+//  for (let index = 1; index <=10; index++) {
+//     if (index==5) {
+//         console.log(`detected 5`);
+//         break;
+//     }
+//      console.log(`value of 1 is ${index}`);
+    
+//  }
+ 
+        
+
+ // +++++++++++++++ CONTINUE KEYWORD (MEANS:- GAME me glti hone ke bd v khelte raho, continue; usko ignore kar diya jata h.. ; GLTI MEANS (iteration,condition))
+
+ for (let index = 1; index <=20; index++) {
+    if (index==5) {
+        console.log(`detected 5`);
+        continue
     }
-
-
+     
     console.log(`value of 1 is ${index}`);
     
-}
+ }
