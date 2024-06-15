@@ -16,9 +16,9 @@
 
 // // +++++++++++++++++++++++ LOOP IN LOOP +++++++++++++++++++++
 
-//  for (let i = 3; i <=10; i++) {       // outer loop ka value (3) se start hoke (10) tak chalega..
+//  for (let i = 3; i <=10; i++) {                   // outer loop ka value (3) se start hoke (10) tak chalega..
 //     console.log(`outer loop value: ${i}`);
-//     for (let j = 2; j<=5; j++) {    // inner loop , outer loop ke andr me (2) se (5) tak chalega..
+//     for (let j = 2; j<=5; j++) {                  // inner loop , outer loop ke andr me (2) se (5) tak chalega..
 //         console.log(`inner loop value ${j} and inner loop $(i)`);
          
 //   }
