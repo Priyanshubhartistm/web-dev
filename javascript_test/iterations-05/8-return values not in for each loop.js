@@ -19,24 +19,31 @@
 // console.log(newNums);
 
 
-const books = [
-   {title: 'Book One', genre: 'fiction', publish: 1981,
-   edition: 2004},
-   {title: 'Book Two', genre: 'NOn-fiction', publish: 1982,
-   edition: 2005},
-   {title: 'Book Three', genre: 'history', publish: 1983,
-   edition: 2006},
-  {title: 'Book Four', genre: 'non- history', publish: 1984,
-   edition: 2007},
-   {title: 'Book Five', genre: 'science', publish: 1985,
-    edition: 2008},
-   {title: 'Book six', genre: 'non-science', publish: 1986,
-   edition: 2009},
-];
+// const books = [
+//    {title: 'Book One', genre: 'fiction', publish: 1981,
+//    edition: 2004},
+//    {title: 'Book Two', genre: 'NOn-fiction', publish: 1982,
+//    edition: 2005},
+//    {title: 'Book Three', genre: 'history', publish: 1983,
+//    edition: 2006},
+//   {title: 'Book Four', genre: 'non- history', publish: 1984,
+//    edition: 2007},
+//    {title: 'Book Five', genre: 'science', publish: 1985,
+//     edition: 2008},
+//    {title: 'Book six', genre: 'non-science', publish: 1986,
+//    edition: 2009},
+// ];
 
-let userbooks = books.filter ( (bk)  => bk.genre === 'history')
+// let userbooks = books.filter ( (bk)  => bk.genre === 'history')
 
-// userbooks = books.filter ( (bk)  => {bk.publish>= 2000} )            // empty array dega ,bcz yaha pe ek (scope) open h..
-userbooks = books.filter ( (bk)  => {return bk.publish >= 1983} )       // ya to (scope) hato ya fir (RETURN) keyword ka use karo..
+// // userbooks = books.filter ( (bk)  => {bk.publish>= 2000} )            // empty array dega ,bcz yaha pe ek (scope) open h..
+// userbooks = books.filter ( (bk)  => {return bk.publish >= 1983} )       // ya to (scope) hato ya fir (RETURN) keyword ka use karo..
 
-console.log(userbooks);
+// console.log(userbooks);
+
+
+// const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+// const newNums = myNumbers.map( (num) => {return num + 10})
+// console.log(newNums);
+
+
