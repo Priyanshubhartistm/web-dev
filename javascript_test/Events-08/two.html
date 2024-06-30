@@ -10,8 +10,46 @@
     <button id="stop">stop</button>
 </body>
 <script>
-    setTimeout(function(){
-        console.log("priyanshu");
-    }, 2000 )
+    //setTimeout()
+    //     setTimeout(function(){
+    //     console.log("priyanshu");
+    // }, 2000 )
+
+    // variable declare krenge
+const saypriyanshu = function () {
+    console.log("priyanshu");
+    
+}
+setTimeout(saypriyanshu,2000)    // function ka refernce dena h..execute ni krwana h..ye to ho jayega execute; saypriyanshu(),2000
+
+
+// h1 ka nam change karna ho to ... best priya
+    document.querySelector('h1').innerHTML= "best priya"
+
+// mai chahati hu 2sec bad kam ho to 
+const changeText = function() {
+    document.querySelector('h1')
+    innerHTML = "best priyanshu"
+    }
+    setTimeout(changeText, 2000)
+
+
+// agr apne set timeout laga diya h.to apko pata hona chahya ki ap usko rok kaise skte h..
+// agr utni der me oo event ni hua to oo option hona chahya ya fir ho sakta h..yasa situation aa jaye ki
+// mai use event ko rokna chahti hu.to (stop button) isliya diya tha ki mai 2sec se phle stop button click kr du to o
+// (chai aur code) hi aye
+
+// cleartimeout v ek function hota h..
+// cleartimeout(); yase execute ni hota h..
+// clearTimeout ko chahya refernce..ki app kn se wale (setTimeout) ko hatna chahte h..addEventListener
+// bcz,bht sare (setTimeout) ho skte h..to uska refernce lena hoga
+
+const changeMe= setTimeout(changeText,2000) // changeMe refernce lenge
+
+document.querySelector('#stop').        // button ka id stop de rakha h..
+addEventListener('click', function(){   // uske upr event listner laga dete h.. kn sa event listen karna chahoge ek (click) event listen kr lo
+    clearTimeout(changeMe)
+    console.log("stopped");             // ab stop press kr dene pe maine use evvnt ko hone se rok diya.
+    })
 </script>
 </html>
